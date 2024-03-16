@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pypdf4 = "*"
+pdf2image = "*"
+pytesseract = "*"
+numpy = "*"
+"pdfminer.six" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
